@@ -1,9 +1,9 @@
 # Links link
-
+<base target="_blank">
 
 ## Today's class
+* Open nb2 in [colab](https://colab.research.google.com)
 * Accept [nb2](https://classroom.github.com/a/sm-T03pF)
-* Open nb2 in colab
 * Math
 * Ethics
 * Coding
