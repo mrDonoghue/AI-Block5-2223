@@ -3,10 +3,9 @@
 
 ## Today's class
 * Open nb2 in [colab](https://colab.research.google.com)
-* Accept [nb2](https://classroom.github.com/a/sm-T03pF)
 * Math
-* Ethics
 * Coding
+* Ethics?
 
 ## Using Colab Reminders:
 * Colab does ***NOT*** autosave!!!
