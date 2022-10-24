@@ -3,8 +3,9 @@
 
 ## Today's class
 * Open nb2 in [colab](https://colab.research.google.com)
-* Math
+* ~~Math~~
 * Coding
+* [MNIST Baseline Lab](ffiles/MNIST%20Baseline%20Lab.md)
 * Ethics?
 
 ## Using Colab Reminders:
