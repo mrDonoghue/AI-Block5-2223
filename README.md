@@ -3,7 +3,11 @@
 
 ## Today's class
 * Open nb2 in [colab](https://colab.research.google.com)
-* [MNIST Baseline Lab](ffiles/MNIST%20Baseline%20Lab.md)
+* Gradient descent example
+    ```
+    heights = tensor([16., 20., 22., 24., 40., 52., 53., 56., 63., 82.])
+    flowers = tensor([2., 2., 3., 2., 4., 5., 6., 5., 6., 8.])
+    ```
 * [Reflection](https://forms.gle/cCaK38NC18hirtwb7)
 * Ethics?
 
@@ -26,3 +30,6 @@
 * [nb0](https://classroom.github.com/a/DF3J9551)
 * [nb1](https://classroom.github.com/a/QpcoqLfc)
 * [nb2](https://classroom.github.com/a/sm-T03pF)
+
+## Old
+* [MNIST Baseline Lab](files/MNIST%20Baseline%20Lab.md)
