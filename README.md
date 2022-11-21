@@ -3,13 +3,18 @@
 
 ## Today's class
 * Open nb2 in [colab](https://colab.research.google.com)
+* run first 2 code cells (the imports)
 * Gradient descent example
     ```
     heights = tensor([16., 20., 22., 24., 40., 52., 53., 56., 63., 82.])
     flowers = tensor([2., 2., 3., 2., 4., 5., 6., 5., 6., 8.])
     ```
-* [Reflection](https://forms.gle/cCaK38NC18hirtwb7)
-* Ethics?
+* Gradient descent new example:
+    ```
+    x=tensor([35., 42., 43., 54., 59., 64., 76., 78., 82., 98.])
+    y=tensor([52., 55., 54., 52., 52., 47., 47., 43., 45., 40.])
+    ```
+
 
 ## Using Colab Reminders:
 * Colab does ***NOT*** autosave!!!
