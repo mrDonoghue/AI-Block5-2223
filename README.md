@@ -2,6 +2,7 @@
 <base target="_blank">
 
 ## Today's class
+* [semEnd](files/semEnd.md)
 * Open nb2 in [colab](https://colab.research.google.com)
 * run first 2 code cells (the imports)
 * Gradient descent example
