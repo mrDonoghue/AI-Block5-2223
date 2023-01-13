@@ -10,7 +10,6 @@ Your task: Adapt the given code code to build a logistic regression classifier f
   * ***Share the notebook with me!!***
 * From nb2 steal all of the code for downloading and torchify-ing the MNIST data. Put this into the new notebook
 * Clean up the stolen code and get rid of any unnecessary garbage
-* Start stealing code from [here](TODO) *one cell at a time*
+* Start stealing code from [here](https://colab.research.google.com/drive/1hjIZDP0Amv48-ZwLeL_ClH2pJ30l8sDJ?usp=sharing) *one cell at a time*
   * You *will* need to adapt a lot of the cells.
   *  For each cell, think about its purpose, whether we need it at all and whether we need to adapt it
-* 
