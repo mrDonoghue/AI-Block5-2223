@@ -3,7 +3,7 @@ Your task: Adapt the given code code to build a logistic regression classifier f
 
 
 # Steps
-* [colab](colab.research.google.com)
+* [colab](https://colab.research.google.com)
 * Open nb2
 * Open *new notebook*
   * Name the new notebook `yourname3v7logistic.ipynb` (replacing `yourname` with something that will let me know it's you)
