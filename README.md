@@ -2,69 +2,8 @@
 <base target="_blank">
 
 ## Today's class
-* [semEnd](files/semEnd.md)
-* [Explainer0](files/Explainer0.md)
+* [3v7Logistic](files/3v7Logistic.md)
 
-
-
-# Widget
-```python
-import torch
-import ipywidgets as widgets
-from IPython.display import display
-from IPython.display import clear_output
-from ipywidgets import Output
-import matplotlib.pyplot as plt
-%matplotlib inline
-# Generate some random data for the scatterplot
-torch.manual_seed(0)
-X = torch.randint(low=0,high=5, size=(20,))
-
-Y = X * 2 + 3 + torch.randn(20)
-
-# Define the sliders for the linear regression line
-w_slider = widgets.FloatSlider(value=0, min=-5, max=5, step=0.1, description='w')
-b_slider = widgets.FloatSlider(value=0, min=-5, max=5, step=0.1, description='b')
-out = Output()
-# Define the function to update the plot based on the slider values
-def update_plot(change):
-    clear_output(wait=True)
-    with out:
-      w = w_slider.value
-      b = b_slider.value
-      # plt.clf()
-      plt.scatter(X, Y)
-      plt.plot(X, X * w + b, 'r')
-      plt.ylim(0, 10)
-      plt.xlim(0, 10)
-      plt.draw()
-    display(w_slider, b_slider, out)
-    
-
-
-w_slider.observe(update_plot, names='value')
-b_slider.observe(update_plot, names='value')
-
-# Display the sliders and the initial plot
-# display(w_slider, b_slider)
-update_plot(None)
-
-
-```
-
-## Using Colab Reminders:
-* Colab does ***NOT*** autosave!!!
-* Cmd+O -> Github tab
-* Look for the right repository in the `Repository` dropdown. If it's not there, put Viewpoint-School-Computer-Science in the `Enter a GitHub URL or search by organization or user` search box and try again
-* ***MAKE SURE*** we're using GPU
-    - Runtime -> Change Runtime Type -> Select GPU
-* Always run the first few cells
-* Save work whenever you've finished a meaningful "chunk" of work and definitely at the end of class
-    - File -> Save a copy in Github.
-    - Look at the Repository dropdown and make sure it's the right name, fixing if not
-    - ***CHANGE*** the commit message to something meaningful that captures what has happened in the file since the last save
-    - Make sure the `Include a link to Colaboratory` checkbox is checked
-    - Hit `OK`
 
 
 ## Notebooks
@@ -73,6 +12,9 @@ update_plot(None)
 * [nb2](https://classroom.github.com/a/sm-T03pF)
 
 ## Old
+* [Widget](files/Widget.md)
+* [Explainer0](files/Explainer0.md)
+* [semEnd](files/semEnd.md)
 * [MNIST Baseline Lab](files/MNIST%20Baseline%20Lab.md)
 * Open nb2 in [colab](https://colab.research.google.com)
 * run first 2 code cells (the imports)
