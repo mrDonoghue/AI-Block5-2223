@@ -2,7 +2,7 @@
 <base target="_blank">
 
 ## Today's class
-* [3v7Logistic](files/3v7Logistic.md)
+* [SGD](https://colab.research.google.com/drive/1GkfznyWpRY9UG2KOd5582CW3GNkNAxTq?usp=sharing)
 
 
 
