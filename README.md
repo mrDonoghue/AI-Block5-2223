@@ -2,8 +2,18 @@
 <base target="_blank">
 
 ## Today's class
-* [SGD](https://colab.research.google.com/drive/1GkfznyWpRY9UG2KOd5582CW3GNkNAxTq?usp=sharing)
+* [nb3](https://colab.research.google.com)
 
+```python
+class BasicOptim:
+    def __init__(self,params,lr): self.params,self.lr = list(params),lr
+
+    def step(self, *args, **kwargs):
+        for p in self.params: p.data -= p.grad.data * self.lr
+
+    def zero_grad(self, *args, **kwargs):
+        for p in self.params: p.grad = None
+```
 
 
 ## Notebooks
@@ -12,6 +22,7 @@
 * [nb2](https://classroom.github.com/a/sm-T03pF)
 
 ## Old
+* [SGD](https://colab.research.google.com/drive/1GkfznyWpRY9UG2KOd5582CW3GNkNAxTq?usp=sharing)
 * [Widget](files/Widget.md)
 * [Explainer0](files/Explainer0.md)
 * [semEnd](files/semEnd.md)
