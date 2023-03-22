@@ -1,25 +1,26 @@
-# Links link
-<base target="_blank">
-
-## Today's class
-* [nb3](https://colab.research.google.com)
-
-```python
-class BasicOptim:
-    def __init__(self,params,lr): self.params,self.lr = list(params),lr
-
-    def step(self, *args, **kwargs):
-        for p in self.params: p.data -= p.grad.data * self.lr
-
-    def zero_grad(self, *args, **kwargs):
-        for p in self.params: p.grad = None
-```
-
+g5
 
 ## Notebooks
 * [nb0](https://classroom.github.com/a/DF3J9551)
 * [nb1](https://classroom.github.com/a/QpcoqLfc)
 * [nb2](https://classroom.github.com/a/sm-T03pF)
+
+```python
+def our_plot(xish):
+  c0 = xish[y.squeeze() == 0].detach()
+  c1 = xish[y.squeeze() == 1].detach()
+  plt.scatter(c0[:, 0], c0[:, 1], label="0", color="red", marker="x")
+  plt.scatter(c1[:, 0], c1[:, 1], label="1", color="blue", marker="o")
+  plt.xlim([-5,5])
+  plt.ylim([-5,5])
+  # Label the axes and add a legend
+  plt.xlabel("f1")
+  plt.ylabel("f2")
+  plt.legend()
+
+  # Show the plot
+  plt.show()
+```
 
 ## Old
 * [SGD](https://colab.research.google.com/drive/1GkfznyWpRY9UG2KOd5582CW3GNkNAxTq?usp=sharing)
