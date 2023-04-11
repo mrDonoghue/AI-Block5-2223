@@ -1,5 +1,5 @@
-g5
-
+## Today
+* [warmup](https://app.formative.com/formatives/6435aed69108c9056b509df3)
 ## Notebooks
 * [nb0](https://classroom.github.com/a/DF3J9551)
 * [nb1](https://classroom.github.com/a/QpcoqLfc)
