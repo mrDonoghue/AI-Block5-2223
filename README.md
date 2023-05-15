@@ -1,4 +1,9 @@
 ## Today
+## Code drop
+```python
+!wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+```
+
 ## MNIST NN Lab in [nb3](https://colab.research.google.com)
 ### Videos
 Fortunately for you, I have made a series of videos to help you through this process.
