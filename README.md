@@ -1,6 +1,9 @@
 ## Today
-# CHECK MYVIEWPOINT
-## Code drop
+
+### Capstone
+* [copy, rename, and share this nb](https://colab.research.google.com/drive/1VoNTDhRorGa27xtgYq8CyOHpt6lW6RU6?usp=sharing)
+
+
 ```python
 torch.manual_seed(1337)
 batch_size = 4 # how many independent sequences will we process in parallel?
